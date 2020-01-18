@@ -1,0 +1,1 @@
+exports.userProvider = require('./userProvider');

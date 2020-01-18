@@ -1,0 +1,54 @@
+{
+  "name": "express-mongodb-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon src/bin/www",
+    "start:prod": "cross-env NODE_ENV=production node src/bin/www",
+    "lint": "eslint ./src/",
+    "lint:fix": "eslint --fix ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedoryakubovich/express-mongodb-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedoryakubovich/express-mongodb-boilerplate/issues"
+  },
+  "homepage": "https://github.com/fedoryakubovich/express-mongodb-boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "celebrate": "^11.0.0",
+    "compression": "^1.7.4",
+    "cross-env": "^6.0.3",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "http-status": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.6",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.2.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.18.2"
+  }
+}
